@@ -8,10 +8,12 @@ This is template project for sites:
 
 This release is not completed yet.
 
-Runnning
-========
+Using template for creating new project
+=======================================
 
 ```sh
+composer --dev create-project inferno-code/website-base PROJECT_NAME
+cd PROJECT_NAME
 start php -S 127.0.0.1:80 -t web
 curl http://127.0.0.1/hello/world
 ```

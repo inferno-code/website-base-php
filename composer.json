@@ -1,29 +1,29 @@
 {
-    "name": "inferno-code/website-base",
+	"name": "inferno-code/website-base",
 	"type": "template",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "inferno-code"
-        }
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "inferno-code"
+		}
 	],
 	"repositories": [
 		{
 			"type": "vcs",
 			"url": "https://github.com/inferno-code/website-base-php"
 		}
-    ],
-    "require": {
-        "slim/slim": "^4.4",
-        "guzzlehttp/psr7": "^1.6",
-        "http-interop/http-factory-guzzle": "^1.0",
-        "sulaco-tech/psr7-sessions": "^1.0",
-        "php-di/php-di": "^6.3",
-        "monolog/monolog": "^2.2",
-        "symfony/dotenv": "^5.2",
-        "inferno-code/opendbal": "^0.5.2",
-        "slim/twig-view": "^3.2"
-    },
+	],
+	"require": {
+		"slim/slim": "^4.4",
+		"guzzlehttp/psr7": "^1.6",
+		"http-interop/http-factory-guzzle": "^1.0",
+		"sulaco-tech/psr7-sessions": "^1.0",
+		"php-di/php-di": "^6.3",
+		"monolog/monolog": "^2.2",
+		"symfony/dotenv": "^5.2",
+		"inferno-code/opendbal": "^0.5.2",
+		"slim/twig-view": "^3.2"
+	},
 	"autoload": {
 		"psr-4": {
 			"App\\": "src/App/"
