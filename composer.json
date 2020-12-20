@@ -1,6 +1,6 @@
 {
     "name": "inferno-code/website-base",
-	"type": "project",
+	"type": "template",
     "license": "MIT",
     "authors": [
         {
